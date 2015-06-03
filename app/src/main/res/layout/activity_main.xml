@@ -22,7 +22,8 @@
         android:layout_marginTop="30dp"
         android:layout_centerHorizontal="true"
         android:width="200dp"
-        android:backgroundTint="#009688"
+        android:background="#009688"
+        android:textColor="#FFFFFF"
         android:onClick="displayToast" />
 
     <Button
@@ -31,9 +32,11 @@
         android:text="@string/title_scores"
         android:id="@+id/btnScores"
         android:layout_below="@+id/btnSpotify"
+        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:width="200dp"
-        android:backgroundTint="#009688"
+        android:background="#009688"
+        android:textColor="#FFFFFF"
         android:onClick="displayToast" />
 
     <Button
@@ -42,9 +45,11 @@
         android:text="@string/title_library"
         android:id="@+id/btnLibrary"
         android:layout_below="@+id/btnScores"
+        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:width="200dp"
-        android:backgroundTint="#009688"
+        android:background="#009688"
+        android:textColor="#FFFFFF"
         android:onClick="displayToast" />
 
     <Button
@@ -53,9 +58,11 @@
         android:text="@string/title_build_it_bigger"
         android:id="@+id/btnBuildItBigger"
         android:layout_below="@+id/btnLibrary"
+        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:width="200dp"
-        android:backgroundTint="#009688"
+        android:background="#009688"
+        android:textColor="#FFFFFF"
         android:onClick="displayToast" />
 
     <Button
@@ -64,9 +71,11 @@
         android:text="@string/title_xyz_reader"
         android:id="@+id/btnXYZReader"
         android:layout_below="@+id/btnBuildItBigger"
+        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:width="200dp"
-        android:backgroundTint="#009688"
+        android:background="#009688"
+        android:textColor="#FFFFFF"
         android:onClick="displayToast" />
 
     <Button
@@ -75,9 +84,10 @@
         android:text="@string/title_capstone"
         android:id="@+id/btnCapstone"
         android:layout_below="@+id/btnXYZReader"
+        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:width="200dp"
-        android:backgroundTint="#e91e63"
+        android:background="#e91e63"
         android:textColor="#FFFFFF"
         android:onClick="displayToast" />
 
