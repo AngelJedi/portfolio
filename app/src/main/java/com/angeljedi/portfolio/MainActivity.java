@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -37,38 +38,11 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void runSpotify(View view) {
-        String message = "This button will launch my Spotify streamer.";
-        Toast toast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT);
-        toast.show();
-    }
+    public void runApp (View view) {
+        Button button = (Button) view;
+        String buttonText = (String) button.getText();
+        String message = getString(R.string.open_app) + " " + buttonText;
 
-    public void runScores(View view) {
-        String message = "This button will launch my scores app.";
-        Toast toast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT);
-        toast.show();
-    }
-
-    public void runLibrary(View view) {
-        String message = "This button will launch my library app.";
-        Toast toast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT);
-        toast.show();
-    }
-
-    public void runBuildItBigger(View view) {
-        String message = "This button will launch my build it bigger app.";
-        Toast toast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT);
-        toast.show();
-    }
-
-    public void runXYZReader(View view) {
-        String message = "This button will launch my xyz reader.";
-        Toast toast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT);
-        toast.show();
-    }
-
-    public void runCapstone(View view) {
-        String message = "This button will launch my capstone app.";
         Toast toast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT);
         toast.show();
     }

@@ -24,7 +24,7 @@
         android:width="200dp"
         android:background="#009688"
         android:textColor="#FFFFFF"
-        android:onClick="runSpotify" />
+        android:onClick="runApp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -37,7 +37,7 @@
         android:width="200dp"
         android:background="#009688"
         android:textColor="#FFFFFF"
-        android:onClick="runScores" />
+        android:onClick="runApp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -50,7 +50,7 @@
         android:width="200dp"
         android:background="#009688"
         android:textColor="#FFFFFF"
-        android:onClick="runLibrary" />
+        android:onClick="runApp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -63,7 +63,7 @@
         android:width="200dp"
         android:background="#009688"
         android:textColor="#FFFFFF"
-        android:onClick="runBuildItBigger" />
+        android:onClick="runApp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -76,7 +76,7 @@
         android:width="200dp"
         android:background="#009688"
         android:textColor="#FFFFFF"
-        android:onClick="runXYZReader" />
+        android:onClick="runApp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -89,6 +89,6 @@
         android:width="200dp"
         android:background="#e91e63"
         android:textColor="#FFFFFF"
-        android:onClick="runCapstone" />
+        android:onClick="runApp" />
 
 </RelativeLayout>
